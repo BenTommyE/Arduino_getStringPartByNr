@@ -37,7 +37,7 @@ String getStringPartByNr(String data, char separator, int index)
     int stringData = 0;        //variable to count data part nr 
     String dataPart = "";      //variable to hole the return text
     
-    for(int i = 0; i<data.length()-1; i++) {    //Walk through the text one letter at a time
+    for(int i = 0; i<data.length(); i++) {    //Walk through the text one letter at a time
       
       if(data[i]==separator) {
         //Count the number of times separator character appears in the text
