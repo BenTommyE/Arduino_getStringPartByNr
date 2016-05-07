@@ -33,7 +33,7 @@ String getStringPartByNr(String data, char separator, int index)
 {
     // spliting a string and return the part nr index
     // split by separator
-    
+    if (data == "") return ""; //check on empty string
     int stringData = 0;        //variable to count data part nr 
     String dataPart = "";      //variable to hole the return text
     
